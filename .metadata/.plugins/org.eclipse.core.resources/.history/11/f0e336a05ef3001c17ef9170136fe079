@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"%>
+<%@ page errorPage="./viewErrorMessage.jsp" %>
+<!DOCTYPE html>
+<html>
+<head>
+<title>파라미터 출력</title>
+</head>
+<body>
+<!-- readParameterNoErrorPage.jsp?name=개똥이 -->
+<!-- .toUpperCase() : 대문자로 변환 -->
+<!-- /readParameterNoErrorPage.jsp => 오류.. null을 대문자로 변환 불가 -->
+name 파라미터 값 : <%= request.getParameter("name").toUpperCase() %>
+<!-- 
+	오류처리 방법
+	 1. page 디렉티브의 errorPage 속성에 지정한 오류 페이지 
+	 2. web.xml의 exception-type
+	 3. 
+ -->
+</body>
+</html>

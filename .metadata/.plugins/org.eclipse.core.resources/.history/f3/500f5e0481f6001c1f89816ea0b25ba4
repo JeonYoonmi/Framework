@@ -1,0 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"%>
+<%@page import="kr.or.ddit.dao.Calculator"%>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Action Tag</title>
+</head>
+<body>
+	<% //스크립트릿
+		Calculator bean = new Calculator();
+	
+	%>
+</body>
+</html>

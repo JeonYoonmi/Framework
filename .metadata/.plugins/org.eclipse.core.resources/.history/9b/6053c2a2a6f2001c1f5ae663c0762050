@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Directives Tag</title>
+</head>
+<body>
+	<%//스트립트릿 -> 지역변수 선언
+		String str = null;
+		out.println(str.toString());
+	%>
+	
+	<!-- 표현문 -> 지역변수에 할당된 데이터 화면에 출력 -->
+</body>
+</html>

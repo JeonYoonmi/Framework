@@ -1,0 +1,49 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"%>
+<%@page import="java.util.Date"%>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand navbar-dark bg-dark">
+		 <div class="container">
+			<!-- ./ : 상대경로. welcome.jsp가 있는 현재 폴더위치. -->
+			<a class="navbar-brand" href="./welcome.jsp">Home</a>
+		</div>
+	</nav>
+	<%! //선언문(전역변수) --> 선언문 위치는 상관이 없다.
+		String greeting = "웹 쇼핑몰에 오신것을 환영합니다."; 
+		String tagline = "Welcome to Yoom Market!";
+	%>
+	
+	<div class="jumbotron">
+		<!-- container : 내용이 들어갈 때 -->
+		<div class="container">
+			<h1 class="display-3"><%= greeting %></h1>
+		</div>
+	</div>
+	<div class="comtainer">
+		<!-- 내용을 중간 정렬 -->
+		<div class="text-center">
+			<h3><%= tagline %></h3>
+			<%
+				Date day = new Date();
+				//지역변수 선언
+				String am_pm;
+				int hour = day.getHours();
+				int minute = day.getMinutes();
+				int second = day.getSeconds();
+				
+			%>
+			<%= day %>
+		</div>
+	</div>
+	<!-- footer : 맨 하단에 들어가는 영역 -->
+	<footer class="container">
+		<p>&copy; JymMarket</p>
+	</footer>
+	
+</body>
+</html>

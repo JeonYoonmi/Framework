@@ -1,0 +1,10 @@
+<%@ page language="java" contentType="text/xml; charset=UTF-8"%> <!-- 페이지 디렉티브 -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Directive Tag</title>
+</head>
+<body>
+
+</body>
+</html>

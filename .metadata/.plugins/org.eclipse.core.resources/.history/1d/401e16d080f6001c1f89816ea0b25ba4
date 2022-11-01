@@ -1,0 +1,9 @@
+package kr.or.ddit.dao;
+
+public class Calculator {
+	//메소드
+	public int process(int n) {
+		//3제곱
+		return n*n*n;
+	}
+}

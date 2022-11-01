@@ -1,0 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Action Tag</title>
+</head>
+<body>
+	<!-- id : 20181004 / name : 홍길순 -->
+	<jsp:useBean id="person" class="kr.or.ddit.dao.Person" scope="request" />
+	
+	
+	
+</body>
+</html>

@@ -1,0 +1,8 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"%>
+<div class="jumbotron">
+<footer class="container">
+	<h2 class="display-3">Welcome to Web Market!</h2>
+	<hr>
+	<p>&copy; BookMarket</p>
+</footer>
+</div>

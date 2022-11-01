@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<title>상품 등록</title>
+</head>
+<body>
+	<jsp:include page="./menu.jsp" />
+	
+	<div class="jumbotron">
+		<div class="container">
+			<h1 class="display-3">상품정보</h1>
+		</div>
+	</div>
+	<!-- http://localhost/addProduct.jsp -->
+	<!-- -------------------- 상품 등록 시작 -------------------- -->
+	<!-- 내용 -->
+	<div class="container">
+		<form name="newProduct" action="processAddProduct.jdp">
+			<
+		</form>
+	</div>
+	<!-- --------------------- 상품 등록 끝 --------------------- -->
+</body>
+</html>

@@ -1,0 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"%>
+<footer class="container">
+	<p>Welcome to Web Market!</p>
+	<hr>
+	<p>&copy; BookMarket</p>
+</footer>

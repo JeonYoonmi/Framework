@@ -1,0 +1,15 @@
+<%@page import="kr.or.ddit.dao.ProductRepository"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"%>
+<%
+// 	ProductRepository productDAO = new ProductRepository();
+%>
+<jsp:useBean id="productDAO" class="kr.or.ddit.dao.ProductRepository" scope="session"></jsp:useBean>
+<!DOCTYPE html>
+<html>
+<head>
+<title>상품 상세 정보</title>
+</head>
+<body>
+	
+</body>
+</html>

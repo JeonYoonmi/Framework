@@ -1,0 +1,12 @@
+package kr.or.ddit.dao;
+
+import java.io.Serializable;
+
+//자바빈 클래스
+//Serializable(직렬화 : 멤버변수를 쭉 나열하여 처리)
+public class Person implements Serializable {
+	//멤버변수 = 필드
+	private int id = 20181004;
+	princate String name = "홍길순";
+	
+}

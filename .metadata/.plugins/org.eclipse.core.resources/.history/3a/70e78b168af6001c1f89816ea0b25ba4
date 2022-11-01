@@ -1,0 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Action Tag</title>
+</head>
+<body>
+	<jsp:useBean id="" />
+	<jsp:setProperty name="" property="" />
+	<jsp:setProperty name="" property="" />
+	<p>아이디 : <jsp:getProperty name=""property="" /></p>
+	<p>이   름 : <jsp:getProperty name=""property="" /></p>
+</body>
+</html>

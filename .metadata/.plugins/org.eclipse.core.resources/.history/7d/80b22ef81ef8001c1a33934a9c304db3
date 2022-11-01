@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<!-- ?id=a001&passwd=java&name=김은대
+	 &phone1=010&phone2=123&phone3=1234
+	 &gender=남성&hobby1=on&hobby2=on&comment=내용부분
+-->
+<%
+	//request 객체의 encoding 처리를 해보자
+	request.setCharacterEncoding("UTF-8");
+
+	String id = request.getParameter("id");
+	request.getParameter("passwd");
+	request.getParameter("phone1");
+	request.getParameter("phone2");
+	request.getParameter("phone3");
+	request.getParameter("gender");
+	request.getParameter("hobby1");
+	request.getParameter("hobby2");
+	request.getParameter("hobby3");
+	request.getParameter("comment");
+%>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"%>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<div class="comtainer">
+	<p  class="text-center">Welcome to Web Market!</p>
+	</div>
+	<hr>
+<footer class="container">
+	<p>&copy; BookMarket</p>
+</footer>

@@ -1,0 +1,11 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+	<jsp:useBean id="person" class="kr.or.ddit.dao.Person" scope="request" />
+	<p>아이디 : <jsp:getProperty name="person" property="id" />
+</body>
+</html>

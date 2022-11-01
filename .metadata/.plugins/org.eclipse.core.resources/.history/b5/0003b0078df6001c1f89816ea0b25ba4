@@ -1,0 +1,17 @@
+package kr.or.ddit.dto;
+
+import java.io.Serializable;
+
+//자바빈 클래스
+public class Product implements Serializable {
+	private static final long serialVersionUID = -4274700572038677000L;
+	
+	private String productId;	//상품 아이디
+	private String pname;	//상품 명
+	private Integer unitPeice;	//상품 가격
+	private String description;	//상품 설명
+	private String manufacturer;	//제조사
+	private String category;	//분류
+	private long unitInStock;	//재고수
+	private String condition;	//신상품 or 중고품 or 재생품
+}

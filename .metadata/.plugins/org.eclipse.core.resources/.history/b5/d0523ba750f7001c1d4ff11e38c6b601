@@ -1,0 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+	<% //스크립틀릿
+		//rquest 내장 객체가 {name=개똥이} 요청 파라미터를 갖고 있음
+		String name = request.getParameter("name");
+		
+	%>
+</body>
+</html>
